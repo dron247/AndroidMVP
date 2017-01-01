@@ -1,0 +1,1 @@
+Fragments and activities are separated just for faster code navigation
