@@ -1,4 +1,4 @@
-package com.dgse.mvpapp.view.base;
+package com.dgse.mvpapp.ui.view.base;
 
 /**
  * Concrete view interface

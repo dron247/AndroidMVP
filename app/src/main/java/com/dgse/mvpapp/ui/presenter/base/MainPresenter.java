@@ -1,6 +1,4 @@
-package com.dgse.mvpapp.presenter;
-
-import com.dgse.mvpapp.presenter.base.PresenterBase;
+package com.dgse.mvpapp.ui.presenter.base;
 
 /**
  * Concrete presenter interface

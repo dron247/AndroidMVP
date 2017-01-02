@@ -1,8 +1,9 @@
-package com.dgse.mvpapp.presenter;
+package com.dgse.mvpapp.ui.presenter;
 
 import com.dgse.mvpapp.model.ExampleModel;
-import com.dgse.mvpapp.view.base.MainView;
-import com.dgse.mvpapp.view.base.ViewBase;
+import com.dgse.mvpapp.ui.presenter.base.MainPresenter;
+import com.dgse.mvpapp.ui.view.base.MainView;
+import com.dgse.mvpapp.ui.view.base.ViewBase;
 
 /**
  * Example Presenter implementation

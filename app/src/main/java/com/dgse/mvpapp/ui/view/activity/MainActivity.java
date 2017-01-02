@@ -1,14 +1,14 @@
-package com.dgse.mvpapp.view.activity;
+package com.dgse.mvpapp.ui.view.activity;
 
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
 import com.dgse.mvpapp.mvpapp.R;
-import com.dgse.mvpapp.presenter.MainPresenterImpl;
-import com.dgse.mvpapp.view.base.MainView;
+import com.dgse.mvpapp.ui.presenter.MainPresenterImpl;
+import com.dgse.mvpapp.ui.view.base.MainView;
 
 
 /**
