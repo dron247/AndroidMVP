@@ -10,7 +10,7 @@ import com.dgse.mvpapp.ui.view.base.ViewBase;
  */
 
 interface PresenterBase {
-    void bind(ViewBase view);
+    <T extends ViewBase> void bind(T view);
 
     void unbind();
 }

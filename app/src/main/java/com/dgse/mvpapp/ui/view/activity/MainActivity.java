@@ -1,6 +1,7 @@
 package com.dgse.mvpapp.ui.view.activity;
 
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -58,11 +59,22 @@ public class MainActivity extends AppCompatActivity implements MainView {
         textHello.setText(hello);
     }
 
+    //------------------------------------------------------
+
+    // this is implementation of view's base view interface
+    // all the public methods should be defined there
+    // because presenters are working through interface only
+    // also it's good for testing and mocking
+
     @Override
     public void setViewTitle(String title) {
         setTitle(title);
     }
 
-    //------------------------------------------------------
+    @Override
+    public Context getViewContext() {
+        return this;
+    }
+
 
 }
